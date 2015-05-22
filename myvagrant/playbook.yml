@@ -1,0 +1,13 @@
+# file playbook.yml for what we want to do
+
+- hosts: web
+  roles:
+  # - common
+  # - docker
+   - nginx
+
+  pre_tasks:
+  - debug: msg="Starting  to build nginx docker image"
+
+  post_tasks:
+  - debug: msg="nginx docker image-------- successed>>>>>>>>>>."

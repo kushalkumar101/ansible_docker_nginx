@@ -1,0 +1,16 @@
+{
+  "name": "ansible_docker_nginx",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
